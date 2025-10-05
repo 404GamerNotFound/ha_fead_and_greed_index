@@ -1,0 +1,8 @@
+{
+  "name": "Fear and Greed Index",
+  "content_in_root": false,
+  "render_readme": true,
+  "filename": "README.md",
+  "domains": ["sensor"],
+  "country": "de"
+}

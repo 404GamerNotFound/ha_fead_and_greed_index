@@ -1,0 +1,28 @@
+{
+  "title": "Fear and Greed Index",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fear and Greed Index",
+        "description": "Richte den Zugriff auf den Fear and Greed Index von Alternative.me ein."
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur Fear-and-Greed-API fehlgeschlagen."
+    },
+    "abort": {
+      "already_configured": "Der Fear and Greed Index ist bereits konfiguriert."
+    }
+  },
+  "options": {
+    "step": {
+      "update": {
+        "title": "Fear and Greed Optionen",
+        "description": "Lege fest, wie häufig der Index aktualisiert werden soll.",
+        "data": {
+          "update_interval": "Aktualisierungsintervall (Sekunden)"
+        }
+      }
+    }
+  }
+}
