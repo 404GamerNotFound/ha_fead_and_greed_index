@@ -1,0 +1,14 @@
+{
+  "domain": "fear_and_greed",
+  "name": "Fear and Greed Index",
+  "codeowners": ["@ha_fead_and_greed_index"],
+  "config_flow": true,
+  "documentation": "https://github.com/ha_fead_and_greed_index",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ha_fead_and_greed_index/issues",
+  "loggers": ["custom_components.fear_and_greed"],
+  "requirements": [
+    "aiohttp>=3.9.0"
+  ],
+  "version": "0.1.0"
+}
